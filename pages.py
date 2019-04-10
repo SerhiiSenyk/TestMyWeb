@@ -9,4 +9,4 @@ def schedule():
     return render_template('schedule.html' , title = 'About')
 
 if __name__ == '__main__':
-    app.run(debug =True)
+    app.run(debug = True)
